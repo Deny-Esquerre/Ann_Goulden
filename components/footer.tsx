@@ -12,12 +12,15 @@ const footerLinks = [
     title: "Preguntas Frecuentes",
     href: "#faq",
   },
-  {
-    title: "Testimonios",
-    href: "#testimonials",
-  },
-];
-
+      {
+      title: "Testimonios",
+      href: "#testimonials",
+    },
+    {
+      title: "Actividades",
+      href: "https://sistema.actividades.anngoulden.org/login",
+    },
+  ];
 const Footer = () => {
   return (
     <footer className="dark:border-t mt-40 dark bg-background text-foreground">
