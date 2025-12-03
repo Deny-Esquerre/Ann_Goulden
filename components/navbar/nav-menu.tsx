@@ -30,6 +30,11 @@ export const NavMenu = (props: NavigationMenuProps) => (
           <Link href="https://sistema-colegio.anngoulden.org/padres/eventos" target="_blank">Eventos</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
+      <NavigationMenuItem>
+        <NavigationMenuLink asChild>
+          <Link href="https://sistema.actividades.anngoulden.org/login" target="_blank">Actividades</Link>
+        </NavigationMenuLink>
+      </NavigationMenuItem>
     </NavigationMenuList>
   </NavigationMenu>
 );
